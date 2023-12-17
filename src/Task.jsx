@@ -2,25 +2,25 @@ import { FaUser, FaClock, FaBook } from "react-icons/fa";
 import image01 from "../src/assets/01.png";
 import image02 from "../src/assets/02.png";
 import image03 from "../src/assets/03.png";
+
+<link rel="stylesheet" href="/fonts/stylesheet.css" />;
 const Task = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto mt-[234px] mb-56 gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 mt-[234px] mb-56 gap-10 px-4">
         {/* First Card */}
         <div>
           <div className="hidden md:flex flex-col justify-center items-center">
-            <h1 id="heading" className="text-2xl font-semibold ">
-              When Course has
-            </h1>
+            <h1 className="heading text-2xl font-semibold ">When Course has</h1>
             <p className="text-2xl font-semibold">Discount</p>
           </div>
-          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14">
+          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14 hover:scale-105 duration-150">
             <figure>
               <img className="rounded-t-xl w-full" src={image01} />
             </figure>
             <div className="mt-[10px]">
               <h2 className="text-left ps-2 font-semibold text-2xl gap-[13.61px]">
-                This Is One line Title
+                This is a One line title
               </h2>
               <p className="text-left ps-2 pt-1 text-xl">
                 Two line paragraph Lorem ipsum <br /> dolor sit amet,
@@ -28,7 +28,7 @@ const Task = () => {
               </p>
             </div>
             <div className="flex justify-between mx-2 pt-[10px] items-center">
-              <p className="text-xl">$1050</p>
+              <p className="text-xl line-through">$1050</p>
               <p className="primary text-xl font-semibold ">$750</p>
               <p className="color_Highlight rounded-full px-2 mr-3">
                 You Save $250
@@ -54,18 +54,16 @@ const Task = () => {
         {/* Second Card */}
         <div>
           <div className="hidden md:flex flex-col justify-center items-center">
-            <h1 id="heading" className="text-2xl font-semibold ">
-              When Course has
-            </h1>
+            <h1 className="heading text-2xl font-semibold ">When Course has</h1>
             <p className="text-2xl font-semibold">No Discount</p>
           </div>
-          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14">
+          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14 hover:scale-105 duration-150">
             <figure>
               <img className="rounded-t-xl w-full" src={image02} />
             </figure>
             <div className="mt-[10px]">
               <h2 className="text-left ps-2 font-semibold text-2xl gap-[13.61px]">
-                This Is One line Title
+                This is a One line title
               </h2>
               <p className="text-left text-xl ps-2 pt-1">
                 Two line paragraph Lorem ipsum <br /> dolor sit amet,
@@ -95,18 +93,16 @@ const Task = () => {
         {/* Third Card */}
         <div>
           <div className="hidden md:flex flex-col justify-center items-center">
-            <h1 id="heading" className="text-2xl font-semibold ">
-              When Course is
-            </h1>
-            <p className="text-2xl font-semibold">Free</p>
+            <h1 className="heading text-2xl font-semibold ">When Course is</h1>
+            <p className="text-2xl font-semibold">FREE</p>
           </div>
-          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14">
+          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14 hover:scale-105 duration-150">
             <figure>
               <img className="rounded-t-xl w-full" src={image03} />
             </figure>
             <div className="mt-[10px]">
               <h2 className="text-left ps-2 font-semibold text-2xl gap-[13.61px]">
-                This Is One line Title
+                This is a One line title
               </h2>
               <p className="text-left text-xl ps-2 pt-1">
                 Two line paragraph Lorem ipsum <br /> dolor sit amet,

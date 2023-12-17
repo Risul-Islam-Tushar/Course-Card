@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "sf_pro_display";
+  src: url("sfprodisplayblackitalic-webfont.woff2") format("woff2"),
+    url("sfprodisplayblackitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "sf_pro_display";
+  src: url("sfprodisplaybold-webfont.woff2") format("woff2"),
+    url("sfprodisplaybold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sf_pro_display";
+  src: url("sfprodisplayheavyitalic-webfont.woff2") format("woff2"),
+    url("sfprodisplayheavyitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "sf_pro_display";
+  src: url("sfprodisplaylightitalic-webfont.woff2") format("woff2"),
+    url("sfprodisplaylightitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "sf_pro_display";
+  src: url("sfprodisplaymedium-webfont.woff2") format("woff2"),
+    url("sfprodisplaymedium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sf_pro_display";
+  src: url("sfprodisplayregular-webfont.woff2") format("woff2"),
+    url("sfprodisplayregular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sf_pro_display";
+  src: url("sfprodisplaysemibolditalic-webfont.woff2") format("woff2"),
+    url("sfprodisplaysemibolditalic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "sf_pro_display";
+  src: url("sfprodisplaythinitalic-webfont.woff2") format("woff2"),
+    url("sfprodisplaythinitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "sf_pro_display";
+  src: url("sfprodisplayultralightitalic-webfont.woff2") format("woff2"),
+    url("sfprodisplayultralightitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}

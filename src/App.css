@@ -1,4 +1,7 @@
-#heading {
+* {
+  font-family: "sf_pro_display";
+}
+.heading {
   color: #818181;
 }
 .primary {

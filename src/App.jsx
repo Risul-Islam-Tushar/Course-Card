@@ -4,7 +4,9 @@ import Task from "./Task";
 function App() {
   return (
     <>
-      <Task></Task>
+      <div className="max-w-6xl mx-auto">
+        <Task></Task>
+      </div>
     </>
   );
 }
