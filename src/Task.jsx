@@ -10,7 +10,7 @@ const Task = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 mt-[234px] mb-56 gap-10 px-4">
         {/* First Card */}
         <div>
-          <div className="hidden md:flex flex-col justify-center items-center">
+          <div className="hidden lg:flex flex-col justify-center items-center">
             <h1 className="heading text-2xl font-semibold ">When Course has</h1>
             <p className="text-2xl font-semibold">Discount</p>
           </div>
@@ -53,7 +53,7 @@ const Task = () => {
         </div>
         {/* Second Card */}
         <div>
-          <div className="hidden md:flex flex-col justify-center items-center">
+          <div className="hidden lg:flex flex-col justify-center items-center">
             <h1 className="heading text-2xl font-semibold ">When Course has</h1>
             <p className="text-2xl font-semibold">No Discount</p>
           </div>
@@ -92,7 +92,7 @@ const Task = () => {
         </div>
         {/* Third Card */}
         <div>
-          <div className="hidden md:flex flex-col justify-center items-center">
+          <div className="hidden lg:flex flex-col justify-center items-center">
             <h1 className="heading text-2xl font-semibold ">When Course is</h1>
             <p className="text-2xl font-semibold">FREE</p>
           </div>
