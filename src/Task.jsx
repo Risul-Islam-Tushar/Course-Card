@@ -7,14 +7,14 @@ import image03 from "../src/assets/03.png";
 const Task = () => {
   return (
     <div className="max-w-5xl mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-[234px] mb-56 gap-10 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[234px] mb-56 gap-10 px-4">
         {/* First Card */}
         <div>
           <div className="hidden lg:flex flex-col justify-center items-center">
             <h1 className="heading text-2xl font-semibold ">When Course has</h1>
             <p className="text-2xl font-semibold">Discount</p>
           </div>
-          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14 hover:scale-105 duration-150">
+          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14 hover:scale-105 transition-all ease-in-out duration-300">
             <figure>
               <img className="rounded-t-xl w-full" src={image01} />
             </figure>
@@ -57,7 +57,7 @@ const Task = () => {
             <h1 className="heading text-2xl font-semibold ">When Course has</h1>
             <p className="text-2xl font-semibold">No Discount</p>
           </div>
-          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14 hover:scale-105 duration-150">
+          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14 hover:scale-105 transition-all ease-in-out duration-300">
             <figure>
               <img className="rounded-t-xl w-full" src={image02} />
             </figure>
@@ -96,7 +96,7 @@ const Task = () => {
             <h1 className="heading text-2xl font-semibold ">When Course is</h1>
             <p className="text-2xl font-semibold">FREE</p>
           </div>
-          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14 hover:scale-105 duration-150">
+          <div className="w-full bg-base-100 shadow-xl rounded-xl mt-14 hover:scale-105 transition-all ease-in-out duration-300">
             <figure>
               <img className="rounded-t-xl w-full" src={image03} />
             </figure>
