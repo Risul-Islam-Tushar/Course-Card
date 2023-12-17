@@ -6,8 +6,8 @@ import image03 from "../src/assets/03.png";
 <link rel="stylesheet" href="/fonts/stylesheet.css" />;
 const Task = () => {
   return (
-    <div>
-      <div className="grid grid-cols-1 md:grid-cols-3 mt-[234px] mb-56 gap-10 px-4">
+    <div className="max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-[234px] mb-56 gap-10 px-4">
         {/* First Card */}
         <div>
           <div className="hidden md:flex flex-col justify-center items-center">
@@ -30,7 +30,7 @@ const Task = () => {
             <div className="flex justify-between mx-2 pt-[10px] items-center">
               <p className="text-xl line-through">$1050</p>
               <p className="primary text-xl font-semibold ">$750</p>
-              <p className="color_Highlight rounded-full px-2 mr-3">
+              <p className="color_Highlight rounded-full px-2 mr-2">
                 You Save $250
               </p>
             </div>
