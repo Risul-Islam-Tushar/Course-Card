@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.color_primary {
+  background-color: #1a9c9c;
+}
+.color_Black {
+  background-color: #1e1e1e;
+}
+.color_Black-2 {
+  background-color: #353535;
+}
+.color_Highlight {
+  background-color: #95e3e3;
+}
